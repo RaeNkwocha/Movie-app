@@ -54,10 +54,9 @@ function Search() {
   
     return (
         <div>
-           <form className={classes.root} noValidate autoComplete="off">
+           <div className={classes.root} noValidate autoComplete="off">
            
            <ThemeProvider theme={darkTheme}>
-           <form type="submit" >
                <div  style={{  marginTop:"20px",display:"flex" }} >
               
       <TextField
@@ -70,7 +69,6 @@ function Search() {
         typeof="submit"    
   />  <Button   onClick={fetchSearch()}   variant="contained"> <SearchOutlined ></SearchOutlined> </Button>
       </div>
-      </form>
 
      <div className="search">
          <Tabs value={type} 
@@ -90,7 +88,7 @@ function Search() {
      </div>
     
       </ThemeProvider>
-    </form>
+    </div>
     <div className="movie_page">
         { content && content.map((search)=>{
             return <Movies key={search.id}
