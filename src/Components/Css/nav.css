@@ -1,0 +1,21 @@
+.home{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    box-shadow: 1px 1px 1px  lightgray;
+    background-color: white;
+    z-index: 100;
+    cursor: pointer;
+
+}
+*{
+    scroll-behavior: smooth;
+}
+.nav-holder{
+    height: 8vh;
+   
+    
+}

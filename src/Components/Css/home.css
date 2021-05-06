@@ -1,0 +1,50 @@
+
+
+.body{
+    background-color: rgba(0, 0, 0, 0.7);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.809), rgba(19, 0, 11, 0.802)), url('https://cdn.wallpapersafari.com/65/44/c1xNqp.jpg') ;
+    height: 100vh;
+    object-fit: cover;
+    width: 100vw;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: white;
+    width: 80vw;
+    padding: 20px;
+    text-align: center;
+  }
+  .centered h1{
+      font-size: 2rem;
+      padding-bottom: 0.5rem;
+  }
+  .centered h3{
+      padding-bottom: 1rem;
+  }
+  .centered p{
+      padding-bottom: 1rem;
+  }
+  .input-field{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  .btn{
+      height: 6.3vh;
+  }
+ .error{
+     color: red;
+     text-transform: lowercase;
+     text-align: left;
+     font-weight: bold;
+     padding-left: 10px;
+ }

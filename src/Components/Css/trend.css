@@ -1,0 +1,35 @@
+.trend {
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    /* box-shadow: 2px 2px 2px  rgb(51, 51, 51); */
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+body{
+    background-color:black;
+    
+}
+
+.movie_page{
+    display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  justify-content: space-around;
+  padding-bottom: 30px;
+
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .movie_page{
+        display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    
+        
+    }
+}
