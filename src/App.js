@@ -2,7 +2,7 @@ import React from 'react';
 import BottomNav from './Components/Bottomnav'
 import './App.css';
 import Footer from './Components/Footer';
-import Home from './Components/Home';
+// import Home from './Components/Home';
 import Nav from './Components/Nav';
 import Trending from './Components/Trending';
 import Movie from './Components/Movie';
@@ -23,7 +23,6 @@ function App() {
       <Switch>
         <Container>
        
-        <Route path='/' exact component={New}></Route>
       <Route path='/trending'  component={Trending}></Route>
       <Route path='/movies'  component={Movie}></Route>
       <Route path='/search'  component={Search}></Route>
@@ -47,15 +46,15 @@ function App() {
  
   );
 }
-const New = ()=>(
-  <>
-  <div>
-  <Home></Home>
-  <Footer></Footer>
+// const New = ()=>(
+//   <>
+//   <div>
+//   <Home></Home>
+//   <Footer></Footer>
 
-  </div>
+//   </div>
        
-  </>
-)
+//   </>
+// )
 
 export default App;

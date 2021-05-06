@@ -25,7 +25,6 @@ window.scroll(0,0)
             <div className='trend'>
                 <h1>Trending </h1>
             </div>
-            <Container>
             <div className="movie_page">
                 {movies.length > 0 && movies.map((movie)=><Movies key={movie.id}
                                                                   title={movie.title||movie.name}
@@ -44,7 +43,6 @@ window.scroll(0,0)
                )}
                        </div>
                        
-            </Container>
         
         </div>
         <BasicPagination setPage={setPage}></BasicPagination>
